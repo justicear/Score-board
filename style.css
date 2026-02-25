@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(50, 36, 81);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+h2 {
+  color: seashell;
+  margin-bottom: 10px;
+}
+#numq,
+#numh {
+  font-size: 30px;
+  text-align: center;
+  width: 60px;
+  background-color: lightblue;
+}
+.home {
+  display: inline-block;
+}
+.quest {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+p {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  width: 50px;
+  text-align: center;
+  padding: 15px 10px;
+  background-color: black;
+  margin-bottom: 13px;
+  margin-top: 10px;
+}
+button {
+  color: white;
+  font-size: 8px;
+  padding: 5px;
+  background-color: rgb(50, 36, 81);
+  border: solid white 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
